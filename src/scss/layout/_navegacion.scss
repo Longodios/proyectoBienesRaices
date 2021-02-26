@@ -1,0 +1,21 @@
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            margin: 2rem;
+        }
+    }
+    
+    .navegacion {
+        margin-right: $separacion / 2;
+        a {
+            text-decoration: none;
+            margin-left: $separacion / 4;
+            color: $blanco;
+            font-size: 1.8rem;
+            &:hover {
+                color: $verde;
+            }
+        }
+    }
