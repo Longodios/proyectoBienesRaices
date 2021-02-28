@@ -1,0 +1,49 @@
+.seccion {
+    h2 {
+        font-size: 4rem;
+        padding: 2rem;
+        font-weight: $bold;
+    }
+}
+
+.seguridad {
+    img {
+        height: 10rem;
+        margin-top: 5rem;
+    }
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+}
+
+.precio {
+    img {
+        height: 10rem;
+        margin-top: 5rem;
+    }
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+}
+
+.tiempo {
+    img {
+        height: 10rem;
+        margin-top: 5rem;
+    }
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+}
+
+@include tablet {
+    .iconos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}

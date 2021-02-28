@@ -1,9 +1,11 @@
-.footer {
-    background-color: $grisOscuro;
-    padding: 1rem 0 3rem 0;
-}
-
-.copyright {
-    text-align: center;
-    color: $blanco;
-}
+            .footer {
+                background-color: $grisOscuro;
+                padding: $separacion / 2 0;
+                .contenedor-footer {
+                    padding-top: $separacion / 2;
+                }
+                .copyright {
+                    text-align: center;
+                    color: $blanco;
+                }
+            }
