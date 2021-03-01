@@ -1,0 +1,53 @@
+@include tablet {
+    .casa {
+        @include grid(3, 2rem);
+    }
+}
+
+.casa {
+    .imagen-oferta1 {
+        margin-top: 3rem;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.informacion-casa {
+    background-color: $gris;
+    border: $gris 1px groove;
+}
+
+.texto-casa {
+    margin: 1.5rem;
+    span {
+        font-size: 3.5rem;
+        font-weight: $bold;
+        color: $verde;
+    }
+}
+
+.iconos-oferta {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.6rem;
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+    span {
+        margin-right: 18rem;
+        font-size: 2rem;
+        font-weight: $bold;
+    }
+}
+
+.boton {
+    width: 95%;
+    padding: 1.6rem;
+    margin: 2rem 0 2rem 1rem;
+    background-color: $amarillo;
+    border: none;
+    color: $blanco;
+    font-size: 1.7rem;
+    font-weight: $bold;
+}
