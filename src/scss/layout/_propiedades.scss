@@ -1,5 +1,5 @@
 @include tablet {
-    .casa {
+    .contenedor-anuncios {
         @include grid(3, 2rem);
     }
 }
@@ -35,7 +35,6 @@
         height: 3rem;
     }
     span {
-        margin-right: 18rem;
         font-size: 2rem;
         font-weight: $bold;
     }

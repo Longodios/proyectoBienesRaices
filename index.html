@@ -64,9 +64,11 @@
         <h2 class="centrar-texto"> Casas y Depas en Venta </h2>
         <div class=" contenedor-anuncios">
             <div class="casa">
-                <div class="imagen-oferta1">
-                    <img src="build/img/anuncio1.webp" alt="Casa de Lujo en el Lago">
-                </div>
+                <picture>
+                    <source srcset="build/img/anuncio1.webp" type="image/webp">
+                    <source srcset="build/img/anuncio1.jpg" type="imgage/jpeg">
+                    <img loading="lazy" src="build/img/anuncio1.jpg" alt="Anuncio">
+                </picture>
                 <div class="informacion-casa">
                     <div class="texto-casa">
                         <h3 class="centrar-texto">Casa de Lujo en el Lago</h3>
