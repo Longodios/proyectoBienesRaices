@@ -1,0 +1,32 @@
+.nowebp .contacto-imagen {
+    background-image: url(../../../build/img/encuentra.jpg);
+}
+
+.webp .contacto-imagen {
+    background-image: url(../../../build/img/encuentra.webp);
+}
+
+.contacto-imagen {
+    background-position: 50%;
+    background-size: cover;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    h2 {
+        color: $blanco;
+        font-weight: $bold;
+    }
+    p {
+        color: $blanco;
+        font-weight: $bold;
+        text-align: center;
+    }
+}
+
+.contacto-imagen {
+    a {
+        @include boton($amarillo, inline-block);
+    }
+}
