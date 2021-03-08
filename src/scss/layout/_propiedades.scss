@@ -1,50 +1,50 @@
-@include tablet {
-    .contenedor-anuncios {
-        @include grid(3, 2rem);
-    }
-}
-
-.casa {
-    margin-top: 2rem;
-}
-
-.informacion-casa {
-    background-color: $gris;
-    border: $gris 1px groove;
-}
-
-.texto-casa {
-    p {
-        margin: 1rem;
-    }
-    span {
-        font-size: 3.5rem;
-        font-weight: $bold;
-        color: $verde;
-        margin: 1rem;
-    }
-}
-
-.iconos-oferta {
-    display: flex;
-    padding: 1rem;
-    margin-left: 1rem;
-    img {
-        width: 3rem;
-    }
-    li {
-        display: flex;
-        flex: 1;
-    }
-    p {
-        font-weight: $black;
-        font-size: 2.3rem;
-        margin: 0;
-        margin-left: 1.5rem;
-    }
-}
-
-.alinear-derecha {
-    display: flex;
-    justify-content: flex-end;
-}
+                    @include tablet {
+                        .contenedor-anuncios {
+                            @include grid(3, 2rem)
+                        }
+                    }
+                    
+                    .casa {
+                        margin-top: 2rem;
+                    }
+                    
+                    .informacion-casa {
+                        background-color: $gris;
+                        border: $gris 1px groove;
+                    }
+                    
+                    .texto-casa {
+                        p {
+                            margin: 1rem;
+                        }
+                        span {
+                            font-size: 3.5rem;
+                            font-weight: $bold;
+                            color: $verde;
+                            margin: 1rem;
+                        }
+                    }
+                    
+                    .iconos-oferta {
+                        display: flex;
+                        padding: 1rem;
+                        margin-left: 1rem;
+                        img {
+                            width: 3rem;
+                        }
+                        li {
+                            display: flex;
+                            flex: 1;
+                        }
+                        p {
+                            font-weight: $black;
+                            font-size: 2.3rem;
+                            margin: 0;
+                            margin-left: 1.5rem;
+                        }
+                    }
+                    
+                    .alinear-derecha {
+                        display: flex;
+                        justify-content: flex-end;
+                    }

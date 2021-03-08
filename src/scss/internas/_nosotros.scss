@@ -1,0 +1,28 @@
+@include tablet {
+    .contenido {
+        @include grid(2, .5rem);
+    }
+}
+
+@include tablet {
+    .informacion-nosotros {
+        p {
+            margin-left: 0;
+        }
+    }
+}
+
+.contenido {
+    picture {
+        padding: 2rem;
+    }
+}
+
+.informacion-nosotros {
+    h4 {
+        margin-left: 2rem;
+    }
+    p {
+        margin-left: 2rem;
+    }
+}
