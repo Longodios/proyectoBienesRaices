@@ -27,6 +27,6 @@
 
 .contacto-imagen {
     a {
-        @include boton($amarillo, inline-block);
+        @include boton($amarillo, block);
     }
 }

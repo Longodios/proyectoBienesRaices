@@ -1,5 +1,9 @@
 @include tablet {
     .contenedor-anuncios {
-        @include grid( 3, 3)
+        @include grid( 3, 1rem)
     }
+}
+
+.contenedor-anuncios {
+    padding: 1rem;
 }

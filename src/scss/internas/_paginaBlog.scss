@@ -1,0 +1,24 @@
+.entrada-blog {
+    h4 {
+        margin: 3rem 0 0 1rem;
+    }
+    p {
+        margin-left: 1rem;
+    }
+    span {
+        color: $negro;
+    }
+}
+
+@include tablet {
+    .contenedor-blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .entrada-blog {
+        h4 {
+            margin: 0;
+        }
+    }
+}

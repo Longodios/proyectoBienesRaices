@@ -1,6 +1,6 @@
 @include tablet {
     .contenido {
-        @include grid(2, .5rem);
+        @include grid(2, 2rem);
     }
 }
 
