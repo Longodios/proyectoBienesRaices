@@ -1,0 +1,34 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.informacion-personal,
+.informacion-propiedad {
+    legend {
+        font-size: 2rem;
+    }
+    label {
+        text-transform: uppercase;
+        font-weight: $bold;
+        font-size: 1.6rem;
+    }
+    input {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    textarea {
+        height: 20rem;
+        border-radius: 1rem;
+    }
+}
+
+.informacion-propiedad {
+    select {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+.informacion-propiedad {}
