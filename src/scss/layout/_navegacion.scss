@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
+    align-items: center;
     img {
         margin: 2rem;
     }
@@ -17,6 +18,9 @@
 }
 
 .navegacion {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .3s ease-in-out, opacity 0.5s linear;
     @include tablet {
         display: flex;
         align-items: center;
@@ -39,4 +43,21 @@
             }
         }
     }
+}
+
+
+/** MENU NAVEGACION **/
+
+.mobile-menu {
+    @include tablet {
+        display: none;
+    }
+    img {
+        width: 5rem;
+    }
+}
+
+.mostrar {
+    visibility: visible;
+    opacity: 1;
 }

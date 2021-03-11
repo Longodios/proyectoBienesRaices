@@ -2,6 +2,9 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
+    p {
+        font-size: 1.5rem;
+    }
 }
 
 .informacion-personal,
@@ -31,4 +34,17 @@ fieldset {
     }
 }
 
-.informacion-propiedad {}
+.forma-contacto {
+    display: flex;
+    max-width: 30rem;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
+input[type="radio"] {
+    margin: 0;
+    width: auto;
+}

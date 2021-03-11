@@ -70,11 +70,16 @@
 
                 <fieldset class="informacion-propiedad">
                     <legend> Informacion sobre la propiedad</legend>
-                    <label for="contacto">Como desea ser contactado</label>
-                    <input type="radio" value="telefono"> Teléfono
-                    <input type="radio" value="mail"> E-Mail
+                    <p>Como desea ser contactado</p>
+                    <div class="forma-contacto">
+                        <label for="contactar-telefono">Teléfono</label>
+                        <input type="radio" id="telefono" name="contacto" value="telefono">
+                        <label for="contactar-email">E-Mail</label>
+                        <input type="radio" id="mail" name="contacto" value="mail">
+                    </div>
 
-                    <label for="contacto">Si eligió teléfono, elija la fecha y la hora</label>
+
+                    <p>Si eligió teléfono, elija la fecha y la hora</p>
                     <label for="fecha">Fecha:</label>
                     <input type="date" value="fecha">
 
