@@ -1,3 +1,25 @@
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include tablet {
+        align-items: flex-end;
+        visibility: visible;
+    }
+    .dark-mode-boton {
+        width: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        filter: invert(100%);
+        &:hover {
+            cursor: pointer;
+        }
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+}
+
 .barra {
     display: flex;
     flex-direction: column;
@@ -7,13 +29,9 @@
         margin: 2rem;
     }
     @include tablet {
-        .barra {
-            .img {
-                margin: 2rem;
-            }
-        }
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-end;
     }
 }
 

@@ -3,7 +3,18 @@
 //Añadimos las funciones por las que vamos a leer
 document.addEventListener('DOMContentLoaded', function() {
     eventListeners();
+
+    darkMode();
 })
+
+//Creamos la función para el modo noche
+
+function darkMode() {
+    const botonDarkMode = document.querySelector('.dark-mode-boton');
+    botonDarkMode.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    })
+}
 
 //Creamos funcion del evento que queremos en este caso el click
 function eventListeners() {
@@ -12,6 +23,7 @@ function eventListeners() {
 }
 //Creamos 
 function navegacionResponsive() {
+
     const navegacion = document.querySelector('.navegacion');
 
     if (navegacion.classList.contains('mostrar')) {
