@@ -36,9 +36,6 @@
         text-align: left;
         margin-left: 2rem;
     }
-    span {
-        color: $amarillo;
-    }
 }
 
 .entrada-blog {
@@ -46,6 +43,9 @@
         color: $negro;
         &:hover {
             cursor: pointer;
+        }
+        span {
+            color: $amarillo;
         }
     }
 }

@@ -1,0 +1,28 @@
+.dark-mode {
+    background-color: darken($grisOscuro, 10);
+    p {
+        color: $blanco;
+    }
+    a,
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: $gris;
+    }
+    .casa {
+        background-color: $grisOscuro;
+        .precio {
+            color: $verde;
+        }
+        .icono {
+            filter: invert(100%);
+        }
+    }
+    .informacion-casa {
+        background-color: $grisOscuro;
+    }
+    .informacion-nosotros blockquote {
+        color: $blanco;
+    }
+}
